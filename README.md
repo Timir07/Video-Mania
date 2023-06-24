@@ -1,3 +1,6 @@
+## Link for the website<br>
+https://video-mania.vercel.app/
+<br><br><br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
