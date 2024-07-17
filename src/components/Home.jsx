@@ -7,6 +7,7 @@ import img2 from "../assets/2.jpg"
 import img3 from "../assets/3.jpg"
 import img4 from "../assets/4.jpg"
 import img5 from "../assets/5.png"
+import "../index.css"
 
 const headingOptions = {
     pos:"absolute",
@@ -43,22 +44,22 @@ const Home = () => {
 
 const MyCarousel = ()=>(
     <Carousel autoPlay infiniteLoop interval={1200} showStatus={false} showThumbs={false}showArrows={false}>
-        <Box w={"full"} h={"90vh"}>
+        <Box w={"full"} h={"100vh"}  className='carousel-container'>
         <Image h={"full"} w={"full"} objectFit={"cover"} src={img1}/>
         <Heading bgColor={"blackAlpha.600"} color={"white"} {...headingOptions}>Watch the Future</Heading>
         </Box>
 
-        <Box w={"full"} h={"90vh"}>
+        <Box w={"full"} h={"100vh"} className='carousel-container'>
         <Image h={"full"} w={"full"} objectFit={"cover"} src={img2}/>
         <Heading bgColor={"whiteAlpha.700"} color={"black"}  {...headingOptions}>Future is Gaming</Heading>
         </Box>
 
-        <Box w={"full"} h={"90vh"}>
+        <Box w={"full"} h={"100vh"} className='carousel-container'>
         <Image h={"full"} w={"full"} objectFit={"cover"} src={img3}/>
         <Heading bgColor={"whiteAlpha.700"} color={"black"}  {...headingOptions}>Gaming on console</Heading>
         </Box>
 
-        <Box w={"full"} h={"90vh"}>
+        <Box w={"full"} h={"100vh"} className='carousel-container'>
         <Image h={"full"} w={"full"} objectFit={"cover"} src={img4}/>
         <Heading bgColor={"whiteAlpha.700"} color={"black"}  {...headingOptions}>Night is Bright</Heading>
         </Box>
